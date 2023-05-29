@@ -118,17 +118,18 @@ main {
 .contact-info {
     display: flex;
     flex-direction: column;
-    padding: 16px 24px;
+    padding: 16px 0 0 24px ;
     margin-top: auto;
+    gap: 12px;
 }
 
-.contact__group {
+.buttons-group {
     display: flex;
     gap: 16px;
-    margin-bottom: 16px;
+    padding-bottom: 4px;
 }
 
-.contact-info__button {
+.buttons-group__button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,7 +139,7 @@ main {
     border-radius: 50%;
 }
 
-.contact-info__button:hover {
+.buttons-group__button:hover {
     background-color: #db3667;
     transition-duration: 0.2s;
     
@@ -159,7 +160,6 @@ main {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
-    margin-bottom: 12px;
 }
 
 .phone {
@@ -167,13 +167,13 @@ main {
     font-size: 24px;
     line-height: 32px;
     font-weight: 700;
-    margin-bottom: 40px;
+    padding-bottom: 28px;
 }
 
 .lang-group {
     display: flex;
     gap: 7px;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 

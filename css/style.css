@@ -80,6 +80,7 @@ main {
     padding: 0;
     margin: 0;
     list-style: none;
+    flex-grow: 1;
 }
 
 .services-list__item {
@@ -119,7 +120,6 @@ main {
     display: flex;
     flex-direction: column;
     padding: 16px 0 0 24px ;
-    margin-top: auto;
     gap: 12px;
 }
 
